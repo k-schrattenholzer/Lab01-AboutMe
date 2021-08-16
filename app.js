@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { countsAsYes } from 'utils.js';
+import { countsAsYes } from '/utils.js';
 
 const quizButton = document.getElementById('quiz-button');
 const results = document.getElementById('results');
@@ -27,7 +27,6 @@ quizButton.addEventListener('click', () => {
     if (countsAsYes(input4)) correctResults++;
     alert (`Wowza - nice job testing your chops ${firstName}! Let's see how you fared...`);
     results.textContent = `Solid effort ${firstName}, you got ${correctResults} out of 4 correct.`;
-    console.log(correctResults);
 
 });
 

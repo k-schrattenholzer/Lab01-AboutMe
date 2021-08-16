@@ -1,4 +1,5 @@
 import './example.test.js';
+const test = QUnit.test;
 import { countsAsYes } from '../utils.js';
 
 
