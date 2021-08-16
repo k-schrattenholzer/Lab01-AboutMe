@@ -29,7 +29,7 @@ quizButton.addEventListener('click', () => {
     results.textContent = `Solid effort ${firstName}, you got ${correctResults} out of 4 correct.`;
     console.log(correctResults);
 
-})
+});
 
 // set event listeners 
   // get user input
