@@ -12,5 +12,6 @@ add an event listener to the button
     console log, or set an alert to test it's working
 within the event listener we declare the name of the input, and ask our question using the prompt function
 we need to track the results in a variable, and increase the count if the input is a correct answer
-
+need to alert the user the quiz is over - and to check the page for displayed results
+if the results are 100% we will display ~pretty message, and a 'try again' if the user didn't get all answers correct
 
