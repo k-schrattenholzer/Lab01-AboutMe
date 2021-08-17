@@ -42,12 +42,7 @@ quizButton.addEventListener('click', () => {
         results.textContent = `INCREDIBLE!! You truly are a Hobgoblin expert!`;
         results.style.fontStyle = 'cursive';
         results.style.color = 'goldenrod';
-        results.style.backgroundColor = 'black';
-        results.style.opacity = '50%';}
+        results.style.backgroundColor = 'rgb(67, 92, 97)';}
     else (results.textContent = `Solid effort ${firstName}, you got ${correctResults} out of 4 correct. Try again!`);
 });
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
