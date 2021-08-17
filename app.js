@@ -45,4 +45,3 @@ quizButton.addEventListener('click', () => {
         results.style.backgroundColor = 'rgb(67, 92, 97)';}
     else (results.textContent = `Solid effort ${firstName}, you got ${correctResults} out of 4 correct. Try again!`);
 });
-
