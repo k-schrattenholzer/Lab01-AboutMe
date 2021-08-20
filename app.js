@@ -37,9 +37,20 @@ quizButton.addEventListener('click', () => {
     alert (`Goodness gracious - ${firstName}! Let's see how you fared...`);
 
     if (correctResults > 3) {
-        results.textContent = `INCREDIBLE!! You truly are a Hobgoblin expert!`;
-        results.style.fontStyle = 'cursive';
-        results.style.color = 'goldenrod';
-        results.style.backgroundColor = 'rgb(67, 92, 97)';}
-    else (results.textContent = `Solid effort ${firstName}, you got ${correctResults} out of 4 correct :( Try again!`);
+        winContent();
+    }
+    
+    lossContent(firstName, correctResults);
+    
 });
+
+function winContent() {
+    results.textContent = `INCREDIBLE!! You truly are a Hobgoblin expert!`;
+    results.style.fontStyle = 'cursive';
+    results.style.color = 'goldenrod';
+    results.style.backgroundColor = 'rgb(67, 92, 97)';
+}
+
+function lossContent(name, correct) {
+    results.textContent = `Solid effort ${name}, you got ${correct} out of 4 correct :( Try again!`;
+}
