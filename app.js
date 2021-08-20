@@ -19,20 +19,20 @@ quizButton.addEventListener('click', () => {
 
     const input1 = prompt(`Can the earliest instance of the word Hobgoblin can be traced to roughly 1530?`);
     if (countsAsYes(input1)) correctResults++;
-    console.log(correctResults);
+   
 
     const input2 = prompt(`Is a close relative of the hobgoblin is a Cookie?`);
     if (!countsAsYes(input2)) correctResults++;
-    console.log(correctResults);
+   
 
     const input3 = prompt(`Do Hobgoblins typically tout a patient and relaxed demeanor?`);
     if (!countsAsYes(input3)) correctResults++;
-    console.log(correctResults);
+   
 
     const input4 = prompt(`If you give one some clothing, will this banish them forever?`);
 
     if (countsAsYes(input4)) correctResults++;
-    console.log(correctResults);
+   
 
     alert (`Goodness gracious - ${firstName}! Let's see how you fared...`);
 
